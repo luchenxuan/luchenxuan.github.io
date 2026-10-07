@@ -120,9 +120,9 @@ figcaption .m{font-family:var(--mono);font-size:12px;color:var(--muted)}
 .film .watch{margin-top:20px;font-size:14px}
 
 /* About */
-.about{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(28px,5vw,72px);align-items:start}
+.about{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,5vw,72px);align-items:center}
 .about .photo{margin:0}
-.about .photo img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:58% 40%}
+.about .photo img{display:block;width:100%;height:auto}
 .about .photo figcaption .m{padding-top:2px}
 .bio p{margin:0 0 16px;max-width:60ch;font-size:17px}
 .facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:32px;padding-top:24px;border-top:1px solid var(--line)}
@@ -156,7 +156,6 @@ dialog.lb::backdrop{background:rgba(8,12,20,.92)}
   .hero{grid-template-columns:1fr}
   .film{grid-template-columns:1fr}
   .about{grid-template-columns:1fr}
-  .about .photo{max-width:420px}
 }
 @media (max-width:560px){
   .facts{grid-template-columns:1fr 1fr}
