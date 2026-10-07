@@ -133,7 +133,8 @@ figcaption .m{font-family:var(--mono);font-size:12px;color:var(--muted)}
 /* Contact */
 .contact h2{margin-bottom:18px}
 .mail{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:8px 0 28px}
-.mail .addr{font-family:var(--display);font-weight:600;font-size:clamp(22px,3.6vw,40px);letter-spacing:-.02em;user-select:all;overflow-wrap:anywhere;min-width:0}
+.mail .addr{font-family:var(--display);font-weight:600;font-size:clamp(22px,3.6vw,40px);letter-spacing:-.02em;overflow-wrap:anywhere;min-width:0;text-decoration:none;border-bottom:2px solid var(--shutter)}
+.mail .addr:hover{color:var(--wall)}
 .links{display:flex;gap:10px;flex-wrap:wrap}
 .status{font-family:var(--mono);font-size:12px;color:var(--muted);min-height:1.5em}
 footer{border-top:1px solid var(--line);padding-block:22px;font-family:var(--mono);font-size:12px;color:var(--muted)}
@@ -183,9 +184,9 @@ dialog.lb::backdrop{background:rgba(8,12,20,.92)}
 <main id="top">
   <div class="wrap hero">
     <div>
-      <p class="eyebrow">Photography, film &amp; illustration · Barcelona</p>
+      <p class="eyebrow">Content &amp; brand marketing · Visual storytelling</p>
       <h1>Chenxuan Lu</h1>
-      <p class="lede">I photograph the city's light and the people in it, draw it in flat, grainy colour, and write and edit short films. Marketing graduate working in <em>content and brand</em>.</p>
+      <p class="lede">Based in Barcelona, I photograph the city's light and the people in it, draw it in flat, grainy colour, and write and edit short films. I bring the same eye to brand work: <em>product launches and multilingual marketing content</em>.</p>
       <div class="jump">
         <a class="btn solid" href="#photography">See photography</a>
         <a class="btn" href="#film">Watch the films</a>
@@ -272,8 +273,8 @@ dialog.lb::backdrop{background:rgba(8,12,20,.92)}
 
   <section id="illustration">
     <div class="wrap">
-      <div class="head"><h2>Illustration</h2><span class="count">5 pieces · signed “dekay”</span></div>
-      <p class="intro">Original digital illustration: editorial covers, character design and small scenes from daily life, mostly in textured flat colour.</p>
+      <div class="head"><h2>Illustration</h2><span class="count">5 pieces</span></div>
+      <p class="intro">Original digital illustration: editorial covers, character design and small scenes from daily life, mostly in textured flat colour. I sign my illustrations as “dekay”.</p>
       <div class="masonry">
 <figure class="work"><button class="open" type="button" aria-label="View larger: Persiana"><img src="img/persiana.jpg" width="768" height="1024" alt="Illustration of a young man in a bucket hat and mask looking at a window with a yellow roller shutter on a textured blue wall" loading="lazy" decoding="async"></button><figcaption><span class="t">Persiana</span><span class="m">Digital · A Barcelona roller shutter on a blue wall</span></figcaption></figure>
 <figure class="work"><button class="open" type="button" aria-label="View larger: Reading by the window"><img src="img/reading.jpg" width="886" height="886" alt="Geometric illustration of a figure reading a book, framed by a pink window" loading="lazy" decoding="async"></button><figcaption><span class="t">Reading by the window</span><span class="m">Digital · Geometric study in pink, red and green</span></figcaption></figure>
@@ -292,7 +293,7 @@ dialog.lb::backdrop{background:rgba(8,12,20,.92)}
       <div class="bio">
         <div class="head"><h2>About</h2></div>
         <p>I'm a marketer based in Barcelona who works with a camera and a drawing tablet. I hold a Master's in Marketing from EAE Business School and UPC.</p>
-        <p>From 2024 to 2025 I coordinated twelve product launches and the multilingual marketing materials behind them across six Latin American markets. That work showed me how images do their job inside a brand: on a brochure, at a trade-show stand, in a distributor presentation.</p>
+        <p>As Business Manager for Latin America at a Shanghai-based animal nutrition company (2024–2025), I coordinated twelve product launches and the multilingual marketing materials behind them across six markets. That work showed me how images do their job inside a brand: on a brochure, at a trade-show stand, in a distributor presentation.</p>
         <p>My own work is about light and small moments in the city. I'm looking for roles in content and brand marketing, and I take on photography and illustration projects.</p>
         <div class="facts">
           <div>
@@ -305,7 +306,7 @@ dialog.lb::backdrop{background:rgba(8,12,20,.92)}
           </div>
           <div>
             <h4>Languages</h4>
-            <ul><li>Chinese <span>native</span></li><li>Spanish <span>C1</span></li><li>English <span>professional</span></li><li>Japanese <span>N2</span></li><li>Thai <span>intermediate</span></li></ul>
+            <ul><li>Chinese <span>native</span></li><li>Spanish <span>C1, SIELE</span></li><li>English <span>professional</span></li><li>Japanese <span>N2, JLPT</span></li><li>Thai <span>intermediate</span></li></ul>
           </div>
         </div>
       </div>
@@ -317,7 +318,7 @@ dialog.lb::backdrop{background:rgba(8,12,20,.92)}
       <h2>Let's work together</h2>
       <p class="intro">For roles, commissions or a portfolio conversation, email me.</p>
       <div class="mail">
-        <span class="addr" id="addr">luchenxuan2023@163.com</span>
+        <a class="addr" id="addr" href="mailto:luchenxuan2023@163.com">luchenxuan2023@163.com</a>
         <button class="btn" type="button" id="copy">Copy email</button>
       </div>
       <p class="status" id="status" aria-live="polite"></p>
