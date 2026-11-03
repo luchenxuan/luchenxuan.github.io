@@ -1,0 +1,15 @@
+# Chenxuan Lu
+
+> Chenxuan Lu (鲁辰轩) is a multilingual content and brand marketer based in Barcelona, Spain, working in Chinese, Spanish, English and Japanese. This site is Chenxuan Lu's portfolio of photography, short films and illustration, showing the visual storytelling brought to brand content.
+
+## Portfolio
+
+- [Photography](https://luchenxuan.github.io/#photography): portraits, events and street life, the architecture and light of Barcelona, and product work
+- [Film](https://luchenxuan.github.io/#film): two original short films, written, shot and edited by Chenxuan Lu
+- [Illustration](https://luchenxuan.github.io/#illustration): original digital illustration, signed "dekay"
+
+## About and contact
+
+- [About](https://luchenxuan.github.io/#about): background in international marketing and business development, tools and languages
+- [Contact](https://luchenxuan.github.io/#contact): email luchenxuan2023@163.com
+- [LinkedIn](https://www.linkedin.com/in/luchenxuan)
